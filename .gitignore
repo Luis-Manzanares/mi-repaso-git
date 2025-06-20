@@ -1,0 +1,17 @@
+# Archivos de log
+*.log
+
+# Archivos temporales o de sistema operativo
+*.tmp
+.DS_Store # Para usuarios de macOS
+Thumbs.db # Para usuarios de Windows
+
+# Directorios de dependencias (ej. node_modules en proyectos web)
+node_modules/
+
+# Archivos de configuración locales
+.env
+config.local.js
+
+# Un archivo específico que no queremos
+mi-archivo-secreto.txt
